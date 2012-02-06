@@ -17,6 +17,7 @@ class Q
       _valid_keys[("+").bytes.to_a[0]] = nil
       _valid_keys[(" ").bytes.to_a[0]] = nil
       _valid_keys[("?").bytes.to_a[0]] = nil
+      _valid_keys[("#").bytes.to_a[0]] = nil
       _valid_keys[("X").bytes.to_a[0]] = nil
       _valid_keys[("q").bytes.to_a[0]] = nil
       _valid_keys[("Q").bytes.to_a[0]] = nil
