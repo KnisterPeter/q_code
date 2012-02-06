@@ -19,6 +19,7 @@ Q = (function() {
     // add exception
     _valid_keys[("~").charCodeAt(0)] = null // 8Bit Encoder
     _valid_keys[(" ").charCodeAt(0)] = null // 8Bit Encoder
+    _valid_keys[("#").charCodeAt(0)] = null // 8Bit Encoder
     _valid_keys[("q").charCodeAt(0)] = null // 8Bit Encoder
     _valid_keys[("Q").charCodeAt(0)] = null // 16Bit Encoder
     return _valid_keys;
