@@ -79,6 +79,7 @@ public class Q {
 			// add exception
 			_validKeys.remove((int) '~'); // 8Bit Encoder
 			_validKeys.remove((int) ' '); // 8Bit Encoder
+			_validKeys.remove((int) '#'); // 8Bit Encoder
 			_validKeys.remove((int) 'q'); // 8Bit Encoder
 			_validKeys.remove((int) 'Q'); // 16Bit Encoder
 
